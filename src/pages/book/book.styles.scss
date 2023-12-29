@@ -1,0 +1,92 @@
+.sketch-main {
+    margin: 1em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    
+    .table-area {
+        padding: 1em;
+        margin-top: 1em;
+        background-color: white;
+
+    }
+
+
+}
+
+.table-area {
+    display: flex;
+    height: 87vh;
+}
+
+.profile-content-avatar {
+    max-width: 300px;  // Đặt kích thước tối đa bạn muốn
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.profile-content {
+    display: flex;
+    gap: 5em;
+    margin-top: "-200px";
+
+    .profile-content-left {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+        .profile-content-button:hover {
+            scale: 1.1;
+        }
+    }
+
+    .profile-content-right {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+    }
+
+
+
+
+}
+
+.property {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+
+    .content {
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        font-weight: 400;
+        font-size: clamp(1em, 2vw, 1em);
+        line-height: 20px;
+        color: #101010;
+        gap: .5em;
+    }
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+
+    .des-title {
+        font-weight: 700;
+        font-size: clamp(1em, 4vw, 1em);
+        line-height: 24px;
+        color: #4E4E4E;
+    }
+
+    .des-text {
+        font-weight: 400;
+        font-size: clamp(.8em, 3vw, 1em);
+        line-height: 24px;
+        color: #100f0f;
+    }
+}
+
+

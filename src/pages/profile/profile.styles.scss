@@ -1,0 +1,22 @@
+.profile-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top: -30px;
+    gap: 5em;
+
+    .profile-content-right {
+      background-color: #fff;
+      border: 1px solid #ddd; 
+      padding: 20px;
+      border-radius: 8px; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      width: 35%; 
+    }
+  }
+  
+  .button-submit {
+    margin-top: 16px; 
+  }
+  

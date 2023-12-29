@@ -1,0 +1,111 @@
+.main-sidebar {
+    height: 100vh;
+    background-color: #CF0201ed;
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    position: relative;
+
+    .sidebar-logo {
+        padding: .5em 0;
+        height: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        font-size: 1.25em;
+        font-weight: 500;
+
+        img {
+            width: 1.75em;
+            margin-right: .5em;
+        }
+    }
+
+    .sidebar-menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+
+        .sidebar-item {
+            display: flex;
+            align-items: center;
+            gap: .5em;
+            color: #FFF;
+            font-size: 14px;
+            padding: 10px;
+            margin: 5px 10px;
+            transition: all .2s ease-in-out;
+            z-index: 100;
+
+            svg {
+                font-size: 1.75em;
+            }
+        }
+
+        .sidebar-item:hover {
+            background-color: #FFF;
+            color: #CF0201ed;
+            border-radius: 1em;
+            cursor: pointer;
+        }
+
+        .sidebar-item.active {
+            background-color: #FFF;
+            color: #CF0201ed;
+            border-radius: 1em;
+        }
+
+        .sub-sidebar {
+            background-color: #CF0201ed;
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            margin-top: -1em;
+            border-radius: 0 0 1em 1em;
+
+            .sub-sidebar-item {
+                display: flex;
+                align-items: center;
+                gap: .5em;
+                color: #e8e8e8;
+                font-size: 14px;
+                padding: 10px;
+                margin: 0 10px;
+                transition: all .2s ease-in-out;
+                cursor: pointer;
+            }
+
+            .sub-sidebar-item.active {
+                color: white;
+            }
+
+            .sub-sidebar-item:first-child {
+                margin-top: 1em;
+            }
+        }
+    }
+
+    .sidebar-logout {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 1em 0;
+        padding-top: 1em;
+        border-top: 1px solid #FFF;
+        color: #FFF;
+        font-size: 14px;
+        display: flex;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        svg {
+            font-size: 1.75em;
+        }
+    }
+
+}
+
+

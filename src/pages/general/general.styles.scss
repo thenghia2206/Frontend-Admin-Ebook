@@ -1,0 +1,12 @@
+.main-general {
+    font-family: Arial, Helvetica, sans-serif;
+
+    .total-boxs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 3em;
+        gap: 1em;
+    }
+
+}

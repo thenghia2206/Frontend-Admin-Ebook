@@ -1,0 +1,143 @@
+.ant-modal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    left: -20px;
+    top: 50px;
+
+    .ant-modal-content {
+        border-radius: 10px;
+
+        .ant-modal-close {
+            display: none;
+        }
+
+        .ant-modal-header {
+            border: none;
+            border-radius: 10px;
+            padding-bottom: 0px;
+
+            .ant-modal-title {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 48px;
+                text-align: center;
+                color: var(--title-color);
+            }
+        }
+
+        .ant-modal-body {
+
+            .login-form {
+                div {
+                    .ant-form-item {
+                        margin-bottom: 10px;
+                    }
+
+                    .form-span-text {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: white;
+                    }
+
+                    .ant-input {
+                        background: white;
+                        border-radius: 16px;
+                        padding-left: 20px;
+                    }
+
+                    .ant-input::placeholder {
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 24px;
+                        display: flex;
+                        align-items: center;
+                        color: rgb(104, 103, 103);
+                    }
+
+                    .ant-input-affix-wrapper.ant-input-password.form-input {
+                        background: white;
+                        border-radius: 1em;
+                    }
+
+
+                    .check-label {
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 16px;
+                        color: #858585;
+                        margin-bottom: 5px;
+                    }
+                }
+
+
+                .form-submit {
+                    .ant-btn.ant-btn-primary.login-form-button {
+                        background: rgb(255, 255, 255);
+                        border-radius: 10px;
+                        border: 1;
+                        width: 20%;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: rgb(3, 3, 3);
+                    }
+
+
+                    .ant-btn.ant-btn-primary.login-form-button.active {
+                        background: #CF0201ed;
+                        color: white;
+                    }
+
+                    .change-to-register {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 16px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: var(--text-color);
+
+                        .register {
+                            color: var(--main-color);
+                            margin-left: 10px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .row-item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .row-item-1 {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+.ant-form-item-explain-error {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--error);
+    margin-top: 5px;
+}
+
+#normal_login_passwordLogin,
+#normal_login_passwordReq,
+#basic_ConfirmPasswordRegiter {
+    border: none;
+    padding-left: 10px;
+}
+
+.ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none;
+}

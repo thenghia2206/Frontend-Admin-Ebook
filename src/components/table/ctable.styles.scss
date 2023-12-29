@@ -1,0 +1,40 @@
+.table-main {
+
+    .title-and-search {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1em;
+
+        .title {
+            color: #4E4E4E;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+        .search-area {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+    }
+
+    .table {
+        .ant-table-thead {
+            tr {
+                th {
+                    font-weight: 700;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .ant-picker.ant-picker-range {
+        width: 100%;
+    }
+}
+
+
+.ant-modal.modal-detail-bill {
+    top: 1em;
+}
