@@ -305,7 +305,7 @@ const UploadBook= () => {
                                         style={{width : '40%'}}
                                         >
                                         {listCategory.map((index : any) => (
-                                            <Option value={index.id}>{index.name}</Option>
+                                            <Option key={index.id} value={index.name}>{index.name}</Option>
                                         ))}
                                     </Select>
                                     <Tooltip placement="right" title={"Thêm Mới"}>
@@ -322,7 +322,7 @@ const UploadBook= () => {
                                         style={{width : '40%'}}
                                         >
                                         {listAuthor.map((index) => (
-                                            <Option value={index.id}>{index.fullName}</Option>
+                                            <Option key={index.id} value={index.fullName}>{index.fullName}</Option>
                                         ))}
                                     </Select>
                                     <Tooltip placement="right" title={"Thêm Mới"}>
