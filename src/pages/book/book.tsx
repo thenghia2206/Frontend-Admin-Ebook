@@ -268,7 +268,7 @@ const Book = () => {
           title={"Chi Tiết Sách"}
           className="modal-detail-book"
           footer={modalFooter}
-          width={1200}
+          width={1400}
         >
           <div className='profile-content' style={{marginTop : "-150px" , marginBottom : "-100px"}}>
             <div className='profile-content-left'>

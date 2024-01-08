@@ -1,5 +1,5 @@
 export enum TEXT_INPUT {
-    MAX_LENGTH = 50,
+    MAX_LENGTH = 100,
 
 }
 
