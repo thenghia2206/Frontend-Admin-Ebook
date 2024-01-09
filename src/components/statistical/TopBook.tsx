@@ -37,7 +37,7 @@ const StatisticalBook = () => {
             dataIndex: 'sold',
             key: 'sold',
             render: (_, record) => (
-                <span >{record.sold}</span>
+                <span  style={{ display: 'flex', justifyContent: 'center' }} >{record.sold}</span>
             )
         },
     ];

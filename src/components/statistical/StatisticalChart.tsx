@@ -12,7 +12,6 @@ const StatisticalChart = (props: StatisticalChartProps) => {
 
     return(
         <div>
-        <ResponsiveContainer className="chart" height={300} width={600} >
         <LineChart 
          width={600} 
          height={300} 
@@ -23,10 +22,9 @@ const StatisticalChart = (props: StatisticalChartProps) => {
         <YAxis/>
         <CartesianGrid strokeDasharray="3 3"/>
         <Tooltip/>
-        <Legend wrapperStyle={{ marginBottom: '-30px' }} />
+        <Legend />
         <Line type="monotone" dataKey="totalRevenue" stroke="#82ca9d" activeDot={{r: 8}} name='Tổng doanh thu'/>
         </LineChart>
-        </ResponsiveContainer>
         </div>
     )
 

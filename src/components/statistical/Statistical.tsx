@@ -28,10 +28,8 @@ const Statistical = () => {
     },[])
 
     return (
-        <div className='general-statistical'>
-            <div className="main-statistical">
-                <StatisticalRevenue></StatisticalRevenue>
-            </div>
+        <div style={{display : 'flex'}}>
+            <StatisticalRevenue></StatisticalRevenue>
 
             <div className="main-statistical">
                 <StatisticalBook></StatisticalBook>

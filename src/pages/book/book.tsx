@@ -339,7 +339,7 @@ const Book = () => {
                   </div>
                   <div className="description">
                       <div className="des-title">Mô tả</div>
-                      <div className="des-text">
+                      <div className="des-text" style={{textAlign : "justify"}}>
                           {detailBook.description}
                       </div>
                   </div>

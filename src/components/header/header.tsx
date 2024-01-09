@@ -32,9 +32,8 @@ const Header = () => {
 
 
     const onClickLogout = () => {
-        localStorage.clear()
         navigate('/');
-        window.location.reload();
+        localStorage.clear()
     }
     
     const onClickProfile = () => {
