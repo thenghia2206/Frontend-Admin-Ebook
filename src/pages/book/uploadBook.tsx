@@ -289,6 +289,11 @@ const UploadBook= () => {
                                             className="search-input"
                                             placeholder="Nhập giá"
                                             min={1}
+                                            onKeyDown={(e) => {
+                                                if (e.key === '-') {
+                                                    e.preventDefault(); 
+                                                }
+                                            }}
                                             onChange={(e) =>
                                                 setSelectPrice(parseInt(e.target.value))
                                             }
